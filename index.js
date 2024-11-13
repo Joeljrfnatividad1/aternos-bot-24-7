@@ -1,4 +1,5 @@
 const mineflayer = require('mineflayer')
+require('./keep_alive.js');
 const cmd = require('mineflayer-cmd').plugin
 const fs = require('fs');
 let rawdata = fs.readFileSync('config.json');
